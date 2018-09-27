@@ -1,0 +1,377 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta charset="utf-8">
+<title>HYTE</title>
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<meta http-equiv="Pragma" content="no-cache">
+<meta name="description" content="HYTE is a global event series that hosts international DJ headliners, upcoming talent and various music labels and brands." />
+<meta name="keywords" content="HYTE, artistalife, askmymanagement, 99ghosts, Barcelona, Vietnam, Beirut; Croatia, Amsterdam, Chile, Mysteryland, Warehouse, New York, Governments Island, Detroit, Park, Festival, Electro, Chris Liebing, loco dice, electronic, music, festival">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta property="og:image" content="image.jpg" />
+<meta property="og:title" content="HYTE" />
+<meta property="og:description" content="ELECTRONIC MUSIC FESTIVAL" />
+<meta property="og:url" content="https://www.hyte.net"/>
+<link rel="image_src" href="image.jpg" />
+<link type="text/css" href="css/style.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/pulloutpanel.css" />
+<link href="css/scrollbars.css" rel="stylesheet" />
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.7.2.js"></script>
+<script src='js/pulloutpanel.js'></script>
+<script type="text/javascript" src="js/modernizr-2.0.min.js"></script>
+<script type="text/javascript" src="js/respond.min.js"></script>
+<script type="text/javascript" src="js/hyte.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<style>
+iframe {
+	position: absolute;
+	height: 100%
+}
+ul.gettickets {
+	list-style: none;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	padding: 0px
+}
+ul.gettickets li {
+	list-style: none;
+	display: inline-block;
+	margin: 5px
+}
+ul.gettickets li a {
+	text-transform: uppercase;
+	font-size: 14px !important;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 1px;
+	border: 1px solid #e9434d;
+	display: inline-block;
+	letter-spacing: 1px;
+	background: #e9434d;
+	color: #000;
+	text-decoration: none;
+}
+ul.gettickets li a:hover {
+	color: white
+}
+.logo {
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0 auto;
+	width: 175px;
+	height: 273px;
+	background-image: url("images/hyte-intro-home.png");
+	display: inline-block;
+}
+.gettickets {
+	display: none !important
+}
+/* Cookiebar */
+.fixedcookiebar {
+	border-top: 2px solid black!important;
+	position: fixed!important;
+	will-change: transform!important;
+}
+.fixed--bottomcookiebar {
+	bottom: 0!important;
+	left: 0!important;
+	right: 0!important;
+	z-index: 99;
+}
+button.cookiebar {
+	background-color: transparent!important;
+	border: 0!important;
+	color: inherit!important;
+	cursor: pointer!important;
+	font: inherit!important;
+	margin: 0!important;
+	padding: 0;
+	border-radius: none !important;
+font-size:12px !improtant;
+}
+.button.cookiebar {
+	border-style: solid!important;
+	border-width: 0.0625em!important;
+	padding: 0.5em 1em 0.34em!important;
+	position: relative;
+	border-radius: none !important;
+	border-radius: 0 !important;
+}
+.button.cookiebar::after {
+	background-color: #000!important;
+	bottom: 0!important;
+	content: ''!important;
+	left: 0!important;
+	opacity: 0!important;
+	position: absolute!important;
+	right: 0!important;
+	top: 0!important;
+	-webkit-transition: opacity 0.3s!important;
+	transition: opacity 0.3s!important;
+	will-change: opacity!important;
+	z-index: -1;
+	border-radius: none !important;
+}
+.button.cookiebar:focus::after, .button.cookiebar:hover::after {
+	opacity: 1;
+	border-radius: none !important;
+}
+.cookie-disclaimer {
+	line-height: 18px;
+	font-family: 'FontMedium' !important;
+	background-color: #000!important;
+	color: #fff!important;
+	font-size: 12px!important;
+	letter-spacing: 0.05em!important;
+	text-transform: uppercase!important;
+	opacity: 0!important;
+	padding: 11px!important;
+	padding: 0.75rem!important;
+	-webkit-transform: translateY(100%);
+	transform: translateY(100%);
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.5s;
+	transition: opacity 0.3s, -webkit-transform 0.5s;
+	transition: opacity 0.3s, transform 0.5s;
+	transition: opacity 0.3s, transform 0.5s, -webkit-transform 0.5s;
+}
+.cookie-disclaimer.is-active {
+	opacity: 1!important;
+	-webkit-transform: translateY(0)!important;
+	transform: translateY(0)!important;
+}
+.cookie-disclaimer :first-child {
+	margin-top: 0!important;
+}
+.cookie-disclaimer :last-child {
+	margin-bottom: 0!important;
+}
+/* modules/media.css */
+
+.disclaimermedia {
+	display: -webkit-box!important;
+	display: -ms-flexbox!important;
+	display: flex!important;
+}
+.disclaimermedia a {
+	color: #aaa!important;
+	text-decoration: none!important;
+}
+.disclaimermedia a:hover {
+	color: #fff!important;
+}
+.disclaimermedia p {
+	padding-bottom: 0px !important;
+	font-size: 12px !important;
+	color: #fff!important
+}
+.media--center {
+	-webkit-box-align: center!important;
+	-ms-flex-align: center!important;
+	align-items: center!important;
+}
+.media__object--left {
+	margin-right: 1em!important;
+}
+.media__object--right {
+	margin-left: 1em!important;
+	-webkit-box-ordinal-group: 2!important;
+	-ms-flex-order: 1!important;
+	order: 1!important;
+}
+.media__body {
+	-webkit-box-flex: 1!important;
+	-ms-flex-positive: 1!important;
+	flex-grow: 1!important;
+}
+body {color:#fff}
+a, a:focus, a:visited {color:#eee}
+a:hover {color:red}
+</style>
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '668553706598772');
+fbq('track', "PageView");</script>
+<noscript>
+<img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=668553706598772&ev=PageView&noscript=1"
+/>
+</noscript>
+<!-- End Facebook Pixel Code -->
+
+</head>
+<body class="black" onUnload="">
+<div class="site-overlay"></div>
+<div id="container">
+  <div id="frontpage" class="the_box">
+    <ul class="bg-image">
+      <li><img src="images/bg-amsterdam-2015.jpg" alt="bg" />
+        <p><span id="addtickets" class="logo"></span><br />
+          <!-- Pushy Menu --> 
+          
+        </p>
+      </li>
+    </ul>
+    <div id="pocp1" class="pocp_left"><!-- BEGIN PULL OUT CONTENT PANEL -->
+      <div class="pocp"><!-- BEGIN PANEL CONTAINER -->
+        <div class="pocp_content"><!-- BEGIN PANEL INNER CONTENT -->
+          <ul class="navi-panel">
+            <li class="logo-typo-panel"><img src="images/logo-typo.png" alt="HYTE" width="80" height="24" /></li>
+            <li><a href="event/hyte-amsterdam/index.html">HYTE <br/>
+              <span class="small">ADE</span></a></li>
+            <li><a href="event/hyte-berlin/index.html">HYTE <br/>
+              <span class="small">BERLIN</span></a></li>
+            <!-- li><a href="event/hyte-ibiza/">HYTE<br/>
+              <span class="small">IBIZA</span></a></li -->
+            <li><a href="event/hyte-miami/">HYTE<br/>
+              <span class="small">MIAMI</span></a></li>
+            <li><a href="event/hyte-newyork/index.html">HYTE<br/>
+              <span class="small">× ELECTRIC ZOO NYC</span></a></li>
+            <li><a href="event/hyte-mdrnty/index.html">HYTE <br/>
+              <span class="small">&#215; WE ARE ELECTRIC</span></a></li>
+            <li><a href="event/hyte-weareelectric/index.html">HYTE<br/>
+              <span class="small">&#215; WE ARE FSTVL</span></a></li>
+          </ul>
+          <ul class="social-icons-panel">
+            <li><a class="facebook" href="https://www.facebook.com/HYTE?fref=ts" target="_blank"></a></li>
+            <li><a class="twitter" href="https://twitter.com/HyteOfficial" target="_blank"></a></li>
+            <li><a class="soundcloud" href="https://soundcloud.com/hyteofficial" target="_blank"></a></li>
+            <li><a class="instagram" href="http://instagram.com/hyteofficial#" target="_blank"></a></li>
+            <li><a class="youtube" href="http://www.youtube.com/user/HYTEofficial" target="_blank"></a></li>
+          </ul>
+          <ul class="contact-imprint-panel">
+            <li><a href="event/contact/index.html">CONTACT</a></li>
+            <li><a href="event/privacy/index.html">PRIVACY</a></li>
+            <li><a href="event/imprint/index.html">IMPRINT</a></li>
+            <li class=""><a href="https://krasserstoff.com/hyte-discount/" target="_blank">MERCHANDISE</a></li>
+          </ul>
+        </div>
+        <!-- END PANEL INNER CONTENT --> 
+      </div>
+      <!-- END PANEL CONTAINER --> 
+    </div>
+    <!-- END PULL OUT CONTENT PANEL -->
+    
+    <div class="nurmobile merchandise"><a href="https://krasserstoff.com/hyte-discount/" target="_blank">MERCHANDISE</a></div>
+    <div id="toprow">
+      <ul class="topmenu">
+        <li>
+          <ul class="contact-imprint">
+            <li><a href="event/contact/index.html">CONTACT</a></li>
+            <li><a href="event/privacy/index.html">PRIVACY</a></li>
+            <li><a href="event/imprint/index.html">IMPRINT</a></li>
+            <li class="merchandise"><a href="https://krasserstoff.com/hyte-discount/" target="_blank">MERCHANDISE</a></li>
+          </ul>
+        </li>
+        <li class="top-logo"><img src="images/logo-typo.png" alt="logo HYTE" width="80" height="24" /></li>
+        <li class="top-float-right">
+          <ul class="social-icons">
+            <li><a class="facebook" href="https://www.facebook.com/HYTE?fref=ts" target="_blank"></a></li>
+            <li><a class="twitter" href="https://twitter.com/HyteOfficial" target="_blank"></a></li>
+            <li><a class="soundcloud" href="https://soundcloud.com/hyteofficial" target="_blank"></a></li>
+            <li><a class="instagram" href="http://instagram.com/hyteofficial#" target="_blank"></a></li>
+            <li><a class="youtube" href="http://www.youtube.com/user/HYTEofficial" target="_blank"></a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div id="menu">
+      <div class="tr"></div>
+      <div class="ntr">
+        <ul>
+          <li><a class="click-and-go-up" href="event/hyte-amsterdam/index.html">HYTE<br/>
+            <span class="small">ADE</span></a></li>
+          <li><a class="click-and-go-up" href="event/hyte-berlin/index.html">HYTE<br/>
+            <span class="small">BERLIN</span></a></li>
+          
+          <!-- li><a class="click-and-go-up" href="event/hyte-ibiza/">HYTE<br/>
+            <span class="small">IBIZA</span></a></li -->
+          <li><a class="click-and-go-up" href="event/hyte-miami/index.html">HYTE<br/>
+            <span class="small">MIAMI</span></a></li>
+          <li><a class="click-and-go-up" href="event/hyte-newyork/index.html">HYTE<br/>
+            <span class="small">× ELECTRIC ZOO NYC</span></a></li>
+          <li><a class="click-and-go-up" href="event/hyte-weareelectric/index.html">HYTE<br/>
+            <span class="small">&#215; WE ARE ELECTRIC</span></a></li>
+          <li><a class="click-and-go-up" href="event/hyte-wearefstvl/index.html">HYTE<br/>
+            <span class="small">&#215; WE ARE FSTVL</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="fixedcookiebar fixed--bottomcookiebar cookie-disclaimer js-cookie-disclaimer">
+  <div class="disclaimermedia media--center">
+    <div class="media__object media__object--right">
+      <button class="button cookiebar">SCHLIESSEN</button>
+    </div>
+    <div class="media__body">
+      <p>Auf dieser Website werden zur Verbesserung der Funktionalität und des Leistungsverhaltens Cookies eingesetzt. Wenn Sie die Nutzung der Website fortsetzen, gilt dies als stillschweigende Einwilligung in die Verwendung von Cookies auf dieser Website. Weitere Informationen finden Sie in unserer <a href="/event/privacy/index.html" target="_blank">Datenschutzerklärung</a>.</p>
+    </div>
+  </div>
+</div>
+<script>
+$(document).ready(function() {
+  
+ $(".gettickets")
+    .insertAfter("#addtickets");
+});
+</script> 
+
+<!--[if lt IE 7 ]>
+    <script src="https://ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+    <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+  <![endif]-->
+<ul class="gettickets">
+  <li> <a href="http://www.residentadvisor.net/event.aspx?707942" target="_blank" >RA TICKETS</a></li>
+  <li><a href="http://tickets.amnesia.es/es/amnesia/hyte/2015-06-03/" target="_blank">Amnesia Tickets</a></li>
+</ul>
+<script type="text/javascript" src="event/js/cookiebar.js"></script> 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-53222414-5', 'auto');
+  ga('send', 'pageview');
+
+</script> 
+
+<!-- Google Tag Manager --> 
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MC8KW6K');</script> 
+<!-- End Google Tag Manager --> 
+<!--
+<script id="ulp-remote" src="https://popups.askmymanagement.com/wp-content/plugins/layered-popups/js/remote.min.js?ver=6.07" data-handler="https://popups.askmymanagement.com/wp-admin/admin-ajax.php"></script> 
+<script>
+ulp_add_event("onload", {
+	popup:		"KiZ9aRoXYs4T3C4M",
+	popup_mobile:	"0",
+	mode:			"every-time",
+	period:			0,
+	delay:			0,
+	close_delay:		0
+});
+</script>
+-->
+</body>
+</html>
+<!-- Localized -->

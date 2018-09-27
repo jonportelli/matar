@@ -1,0 +1,638 @@
+ @font-face {
+ font-family: 'FontBold';
+ src: url('http://www.hyte.net/index.html') format('eot'),  url('fonts/FontBold.otf') format('opentype'),  url('fonts/FontBold.woff') format('woff'),  url('fonts/FontBold.ttf') format('truetype'),  url('fonts/FontBold.svg#Font-Bold') format('svg');
+}
+ @font-face {
+ font-family: 'FontBlack';
+ src: url('http://www.hyte.net/index.html') format('eot'),  url('fonts/FontBlack.otf') format('opentype'),  url('fonts/FontBlack.woff') format('woff'),  url('fonts/FontBlack.ttf') format('truetype'),  url('fonts/FontBlack.svg#FontBlack') format('svg');
+}
+ @font-face {
+ font-family: 'FontLight';
+ src: url('http://www.hyte.net/index.html') format('eot'),  url('fonts/FontLight.otf') format('opentype'),  url('fonts/FontLight.woff') format('woff'),  url('fonts/FontLight.ttf') format('truetype'),  url('fonts/FontLight.svg#FontLight') format('svg');
+}
+ @font-face {
+ font-family: 'FontMedium';
+ src: url('http://www.hyte.net/index.html') format('eot'),  url('fonts/FontMedium.otf') format('opentype'),  url('http://www.hyte.net/index.html') format('woff'),  url('fonts/FontMedium.ttf') format('truetype'),  url('fonts/FontMedium.svg#FontMedium') format('svg');
+}
+
+.merchandise a {padding-left:30px !important}
+.merchandise a:hover {color:red}
+.merchandise:before {content: "";
+background-image: url("merchandis-symbol.png");
+background-repeat: no-repeat;
+background-size: 22px;
+width: 22px;
+height: 22px;
+background-position: 0px 0px;
+display: block;
+line-height: 22px !important;
+position: absolute;
+margin-top: 22px;
+margin-left: 8px;}
+
+@media screen and (min-width: 779px) {
+.nurmobile {display:none}
+}
+@media screen and (max-width: 778px) {
+.nurmobile {display:inline-block; position: fixed; top: 12px; right:15px}
+.nurmobile.merchandise a {font-size: 15px;
+line-height: 26px;
+padding:10px;
+color: white;
+text-decoration: none;}
+.nurmobile.merchandise:before {margin-top:0px; margin-left:0px}
+}
+
+.fullli {display: inline-block; float:left; width:100%; text-align:left; font-family: FontMedium !important;}
+.fullli a {font-family: FontMedium !important;}
+.fullli img {margin-top: 10px; margin-bottom:20px}
+.get-tickets {
+padding: 3px 6px 0px !important;
+border: 1px solid #fff;
+background: none repeat scroll 0% 0% transparent;
+line-height: 15px;
+text-align: center;
+display: inline;
+ transition-property: background;
+  transition-duration: 0.35s;
+  transition-timing-function: linear;
+ -o-transition:color .35s ease-out, background 0.35s ease-in;
+  -ms-transition:color .35s ease-out, background 0.35s ease-in;
+  -moz-transition:color .35s ease-out, background 0.35s ease-in;
+  -webkit-transition:color .35s ease-out, background 0.35s ease-in;
+  /* ...and now override with proper CSS property */
+  transition:color .35s ease-out, background 0.35s ease-in; 
+}
+.get-tickets:hover {
+  background: #fff;
+color:#000 !important;
+}
+
+ 
+
+#simple-menu { background:transparent; position:fixed; width:100%; height:100%; top:100px; bottom:100px;}
+
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html, button, input, select, textarea {
+	color: #222;
+}
+html {
+	font-size: 1em;
+	line-height: 1.4;
+}
+
+body {font-family:"FontMedium", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 0.885rem}
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+ background: #252525;
+ text-shadow: none;
+}
+
+::selection {
+ background: #252525;
+ text-shadow: none;
+}
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+
+audio, canvas, img, video {
+	vertical-align: middle;
+}
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+	resize: vertical;
+}
+/* ==========================================================================
+   Browse Happy prompt
+   ========================================================================== */
+
+.browsehappy {
+	margin: 0.2em 0;
+	background: #ccc;
+	color: #000;
+	padding: 0.2em 0;
+}
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+#toprow {position:fixed; top:0px; left:0px; width:100%; background:#252525; z-index:9999; height:70px; }
+#toprow ul.topmenu {
+	list-style:none;
+	list-style-type:none;
+	padding: 0;
+	margin:0 auto;
+	display:inline-block;
+	width:100%;
+	text-align:center;
+}
+
+#toprow ul.topmenu li {line-height:70px;
+	list-style:none;
+	width: 33.33%;
+	text-align: center;
+	list-style-type:none;
+	color:#fff;
+	padding:0;
+	margin:0;
+	font-family:'FontMedium';
+	font-size: 15px;
+	letter-spacing:1px;
+	display: inline;
+ *display: inline;
+ *zoom: 1;
+	padding:0px;
+	margin:0px;
+	float:left;
+}
+#toprow ul.topmenu li a {
+	text-decoration: none;
+	color:#fff;
+	padding:0px;
+	text-align:center;
+	display:block;
+}
+#toprow ul li.top-logo {text-align: center !important}
+#toprow ul.contact-imprint {text-align:left; padding:0px; margin:0px 0px 0px 10px;} 
+#toprow ul.contact-imprint li{width: auto !important; }
+#toprow ul.contact-imprint li a {margin-left:10px}
+.contact-imprint a { display:block !important; text-align:left !important}
+#toprow ul.social-icons {text-align:right; margin:0px 10px 0px 0px; padding:0px; float:right; display: inline-block}
+ul.social-icons li {width: auto !important; }
+ul.social-icons li a { display:inline !important; margin-right:10px}
+.facebook:before {font-family: FontAwesome !important;   content: "\f082"; }
+.twitter:before {font-family: FontAwesome !important; content: "\f099";}
+.soundcloud:before {font-family: FontAwesome !important;   content: "\f1be"; }
+.instagram:before {font-family: FontAwesome !important;   content: "\f16d"; }
+.youtube:before {font-family: FontAwesome !important;   content: "\f167"; }
+
+.vimeo:before {font-family: FontAwesome !important;   content: "\f194"; }
+
+
+
+
+html, body {
+	height:100%;
+	padding:0;
+	margin:0;
+	background: #252525;
+}
+#menu ul {
+	list-style:none;
+	list-style-type:none;
+	padding: 0;
+	margin:0 auto;
+	display:inline-block;
+	width:100%;
+	text-align:center;
+}
+#menu li {
+	list-style:none;
+	width: 16.6%;
+	text-align: center;
+	list-style-type:none;
+	color:#fff;
+	padding:0;
+	margin:0;
+	font-family:'FontMedium';
+	font-size: 24px;
+	letter-spacing:2px;
+	display: inline;
+ *
+	display: inline;
+ *
+	zoom: 1;
+	padding:0px;
+	margin:0px;
+	float:left;
+}
+#menu li a {
+	text-decoration: none;
+	color:#fff;
+	padding:0px 20px 20px 20px;
+	text-align:center;
+	display:block;
+	white-space: nowrap;
+	transition: all 0.3s ease 0s;
+	}
+
+#menu li a:hover {color:#e8424c}
+#menu .small {
+	font-size: 15px; padding-top:0px; display:block;
+}
+#menu_fixer {
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	min-width:964px;
+}
+#menu_fixer #menu {
+	background:#f9f9f9;
+}
+/*****************************************************************************************/
+/************************************ frontpage menu *******************************************/
+/*****************************************************************************************/
+
+#frontpage {
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background: #252525;
+	overflow: hidden;
+}
+#frontpage #menu {
+	position:absolute;
+	top:auto;
+	bottom:0;
+	height:85px;
+	width:100%;
+}
+#frontpage #menu {
+	display:none;
+}
+#frontpage #menu .ntr {
+	height:100%;
+}
+#frontpage.the_box >.viewport .text {
+}
+#frontpage.the_box >.nav {
+}
+#frontpage.the_box a.frontpage {
+	text-transform: uppercase;
+}
+#frontpage.the_box >.viewport.loading {
+	background: url("logo-animated.gif") center center no-repeat;
+}
+/*****************************************************************************************/
+/********************************** MEDIA GALLERY ****************************************/
+/*****************************************************************************************/
+
+.the_box {
+	overflow:hidden;
+}
+.the_box>ul {
+	display:none;
+}
+.the_box >.viewport {
+	position:absolute;
+	overflow:hidden;
+	top:0;
+	left:0;
+}
+.the_box >.viewport.loading {
+	background: url("logo-animated.gif") center center no-repeat;
+}
+.the_box >.viewport, .the_box >.viewport a {
+	font-size:11px;
+	color:#fff;
+}
+.the_box >.viewport.dark, .the_box >.viewport.dark a {
+	color:#000;
+}
+.logo {
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0 auto;
+	width:478px;
+	height: 430px;
+	background-image: url("../images/hyte-ibiza-tickets.jpg");
+	display:inline-block;
+}
+.the_box >.viewport img, .the_box >.viewport iframe, .the_box >.viewport .iframe_cover {
+	position:absolute;
+	display:block;
+	top:0;
+	left:0;
+}
+.the_box >.viewport iframe, .the_box >.viewport .iframe_cover {
+	width:100%;
+	height:100%;
+}
+.the_box >.viewport .text {
+	display:table;
+	position:absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+}
+.the_box >.viewport .text > div {
+	display: table-cell;
+	vertical-align: middle;
+	width:100%;
+	text-align: center;
+}
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Image replacement
+ */
+
+.ir {
+	background-color: transparent;
+	border: 0;
+	overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+.ir:before {
+	content: "";
+	display: block;
+	width: 0;
+	height: 150%;
+}
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+	display: none !important;
+	visibility: hidden;
+}
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+	clip: auto;
+	height: auto;
+	margin: 0;
+	overflow: visible;
+	position: static;
+	width: auto;
+}
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+	visibility: hidden;
+}
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before, .clearfix:after {
+	content: " "; /* 1 */
+	display: table; /* 2 */
+}
+.clearfix:after {
+	clear: both;
+}
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+ *zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+/* Style adjustments for viewports that meet the condition */
+}
+ @media print,  (-o-min-device-pixel-ratio: 5/4),  (-webkit-min-device-pixel-ratio: 1.25),  (min-resolution: 120dpi) {
+	 
+/* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+* {
+	background: transparent !important;
+	color: #000 !important; /* Black prints faster: h5bp.com/s */
+	box-shadow: none !important;
+	text-shadow: none !important;
+}
+a,  a:visited {
+	text-decoration: underline;
+}
+a[href]:after {
+	content: " (" attr(href) ")";
+}
+abbr[title]:after {
+	content: " (" attr(title) ")";
+}
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,  a[href^="javascript:"]:after,  a[href^="#"]:after {
+ content: "";
+}
+pre,  blockquote {
+	border: 1px solid #999;
+	page-break-inside: avoid;
+}
+thead {
+	display: table-header-group; /* h5bp.com/t */
+}
+tr,  img {
+	page-break-inside: avoid;
+}
+img {
+	max-width: 100% !important;
+}
+ @page {
+ margin: 0.5cm;
+}
+p,  h2,  h3 {
+	orphans: 3;
+	widows: 3;
+}
+h2,  h3 {
+	page-break-after: avoid;
+}
+}
+ @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+
+img.ri
+{
+	position: absolute;
+	max-width: 80%;
+	top: 10%;
+	left: 10%;
+}
+
+img.ri:empty
+{
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+@media screen and (orientation: portrait) {
+	
+	
+	
+	
+  img.ri {
+      max-width: 50%;
+  }
+}
+
+@media screen and (orientation: landscape) {
+	
+
+	
+	
+	
+	
+  img.ri {
+      max-height: 50%;
+  }
+}
+
+@media screen and (min-width: 601px) {
+	
+.pocp_button_left { display:none
+}
+
+}
+
+
+
+@media screen and (max-width: 778px) {
+	.pocp_button_left { display:inline-block;
+}
+
+  #menu, #toprow {
+    visibility: hidden;
+   
+    display: none;
+  }
+  
+  .logo {width:310px; height:279px;}
+}
+
+#pocp1 {z-index:9999}
+ul.navi-panel, ul.navi-panel  li {list-style: none outside none; }
+.navi-panel li {line-height:30px; margin-bottom:30px;}
+.navi-panel li a {font-size:20px; font-family:FontMedium;}
+.navi-panel li .small {font-size: 14px; line-height:14px; display:block; margin-top:-5px; }
+
+
+ul.contact-imprint-panel li {display:inline-block;  font-size:14px; line-height:30px; margin-bottom:30px; float:left; margin-right:10px}
+ul.contact-imprint-panel li a {display: block; line-height:30px; font-size: 15px; margin:0px; padding:0px}
+ul.social-icons-panel {display: inline; float:left; width:100%; padding:0px; margin:0px;}
+ul.social-icons-panel li {
+    float: left;
+    list-style-type: none;
+    margin: 0px 10px 0px 0px !important;
+    padding: 0px !important; line-height:24px;
+display:inline-block;}
+
+
+ul.social-icons-panel li a {
+    border: medium none !important;
+    box-sizing: content-box;
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal !important;
+    font-variant: normal !important;
+    font-weight: normal !important;
+    text-align: center;
+    text-decoration: none !important;
+    text-transform: none !important;
+    font-size:18px; line-height:18px;  padding: 0px; margin:0px;
+}
+
+ul.social-icons-panel li a.facebook {}
+ul.social-icons-panel li a.twitter {}
+ul.social-icons-panel li a.soundcloud {}
+ul.social-icons-panel li a.vimeo {}
+
+.navi-panel li.logo-typo-panel {margin-bottom:40px;}
+.logo-panel {}
+
+
+/* Localized */
