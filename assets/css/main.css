@@ -22,6 +22,22 @@ src: url('/index.html') format('eot'),  url('fonts/FontMedium.otf') format('open
    Author's custom styles
    ========================================================================== */
 
+   .merchandise a {padding-left:30px !important}
+   .merchandise a:hover {color:red}
+   .merchandise:before {content: "";
+   background-image: url("merchandis-symbol.png");
+   background-repeat: no-repeat;
+   background-size: 22px;
+   width: 22px;
+   height: 22px;
+   background-position: 0px 0px;
+   display: block;
+   line-height: 22px !important;
+   position: absolute;
+   margin-top: 22px;
+   margin-left: 8px;}
+
+
    .logo {
        background-position: 50%;
        background-repeat: no-repeat;
@@ -139,6 +155,16 @@ ul.social-icons li a { display:inline !important; margin-right:10px}
     display: block;
 }
 
+.the_box >.viewport .text > div {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    text-align: center;
+}
+.the_box >.viewport, .the_box >.viewport a {
+    font-size: 11px;
+    color: #fff;
+}
 
 /*****************************************************************************************/
 /************************************ frontpage menu *******************************************/
@@ -176,6 +202,59 @@ ul.social-icons li a { display:inline !important; margin-right:10px}
 #frontpage.the_box >.viewport.loading {
 	background: url("logo-animated.gif") center center no-repeat;
 }
+
+/*****************************************************************************************/
+/********************************** MEDIA GALLERY ****************************************/
+/*****************************************************************************************/
+
+.the_box {
+	overflow:hidden;
+}
+.the_box>ul {
+	display:none;
+}
+.the_box >.viewport {
+	position:absolute;
+	overflow:hidden;
+	top:0;
+	left:0;
+}
+.the_box >.viewport.loading {
+	background: url("logo-animated.gif") center center no-repeat;
+}
+.the_box >.viewport, .the_box >.viewport a {
+	font-size:11px;
+	color:#fff;
+}
+.the_box >.viewport.dark, .the_box >.viewport.dark a {
+	color:#000;
+}
+.the_box >.viewport img, .the_box >.viewport iframe, .the_box >.viewport .iframe_cover {
+	position:absolute;
+	display:block;
+	top:0;
+	left:0;
+}
+.the_box >.viewport iframe, .the_box >.viewport .iframe_cover {
+	width:100%;
+	height:100%;
+}
+.the_box >.viewport .text {
+	display:table;
+	position:absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+}
+.the_box >.viewport .text > div {
+	display: table-cell;
+	vertical-align: middle;
+	width:100%;
+	text-align: center;
+}
+
+
 
 /*
 	Landed by HTML5 UP
