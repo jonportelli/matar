@@ -29,10 +29,10 @@
 			<ul class="topmenu">
         <li>
           <ul class="contact-imprint">
-            <li><a href="contact.html">CONTACT</a></li>
-            <li><a href="privacy.html">PRIVACY</a></li>
-            <li><a href="imprint.html">IMPRINT</a></li>
-            <li class="merchandise"><a href="merchandise">MERCHANDISE</a></li>
+            <li><a href="https://augmentaudio.github.io/matar/contact.html">CONTACT</a></li>
+            <li><a href="https://augmentaudio.github.io/matar/privacy.html">PRIVACY</a></li>
+            <li><a href="https://augmentaudio.github.io/matar/imprint.html">IMPRINT</a></li>
+            <li class="https://augmentaudio.github.io/matar/merchandise"><a href="merchandise">MERCHANDISE</a></li>
           </ul>
         </li>
         <li class="top-logo"><h1 id="logo"><a href="index.html">MATAR</a></h1></li>
@@ -56,8 +56,11 @@
 		  <div class="barba-container">
 				<section id="banner">
 					<div class="content">
-						<span id="addtickets" class="logo"></span>
-						
+						<p><span id="addtickets" class="logo"></span>
+							<br>
+          <!-- Pushy Menu -->
+        </p>
+
 					</div>
 
 					<div id="menu" style="display: block;">
@@ -116,6 +119,14 @@
 					}
 					Barba.Pjax.start();
 				});
+</script>
+
+<script>
+$(document).ready(function() {
+
+ $(".gettickets")
+		.insertAfter("#addtickets");
+});
 </script>
 	</body>
 </html>
