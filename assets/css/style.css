@@ -343,8 +343,8 @@ html, body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin: 0 auto;
-	width:250px;
-	height: 370px;
+	width:325px;
+	height: 475px;
 	background-image: url("https://augmentaudio.github.io/matar/images/eos.png");
 	display:inline-block;
 }
@@ -595,7 +595,7 @@ img.ri:empty
     display: none;
   }
 
-  .logo {width:120px; height:180px;}
+  .logo {width:220px; height:330px;}
 }
 
 #pocp1 {z-index:9999}
