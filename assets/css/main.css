@@ -1,4 +1,5 @@
 @import url("font-awesome.min.css");
+@import url("pulloutpanel.css");
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 
 @font-face {
@@ -15,7 +16,7 @@ src: url('/index.html') format('eot'),  url('fonts/FontLight.otf') format('opent
 }
 @font-face {
 font-family: 'FontMedium';
-src: url('/index.html') format('eot'),  url('fonts/FontMedium.otf') format('opentype'),  url('http://www.hyte.net/index.html') format('woff'),  url('fonts/FontMedium.ttf') format('truetype'),  url('fonts/FontMedium.svg#FontMedium') format('svg');
+src: url('/index.html') format('eot'),  url('fonts/FontMedium.otf') format('opentype'),  url('index.html') format('woff'),  url('fonts/FontMedium.ttf') format('truetype'),  url('fonts/FontMedium.svg#FontMedium') format('svg');
 }
 
 /* ==========================================================================
@@ -45,7 +46,7 @@ src: url('/index.html') format('eot'),  url('fonts/FontMedium.otf') format('open
        margin: 0 auto;
        width: 185px;
        height: 273px;
-       background-image: url("https://augmentaudio.github.io/matar/images/eos.svg");
+       background-image: url("../../images/eos.svg");
        display: inline-block;
    }
 

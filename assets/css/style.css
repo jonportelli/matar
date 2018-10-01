@@ -1,18 +1,22 @@
- @font-face {
- font-family: 'FontBold';
- src: url('http://www.hyte.net/index.html') format('eot'),  url('fonts/FontBold.otf') format('opentype'),  url('fonts/FontBold.woff') format('woff'),  url('fonts/FontBold.ttf') format('truetype'),  url('fonts/FontBold.svg#Font-Bold') format('svg');
+@import url("font-awesome.min.css");
+@import url("pulloutpanel.css");
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+@font-face {
+font-family: 'FontBold';
+src: url('index.html') format('eot'),  url('fonts/FontBold.otf') format('opentype'),  url('fonts/FontBold.woff') format('woff'),  url('fonts/FontBold.ttf') format('truetype'),  url('fonts/FontBold.svg#Font-Bold') format('svg');
 }
- @font-face {
- font-family: 'FontBlack';
- src: url('http://www.hyte.net/index.html') format('eot'),  url('fonts/FontBlack.otf') format('opentype'),  url('fonts/FontBlack.woff') format('woff'),  url('fonts/FontBlack.ttf') format('truetype'),  url('fonts/FontBlack.svg#FontBlack') format('svg');
+@font-face {
+font-family: 'FontBlack';
+src: url('index.html') format('eot'),  url('fonts/FontBlack.otf') format('opentype'),  url('fonts/FontBlack.woff') format('woff'),  url('fonts/FontBlack.ttf') format('truetype'),  url('fonts/FontBlack.svg#FontBlack') format('svg');
 }
- @font-face {
- font-family: 'FontLight';
- src: url('http://www.hyte.net/index.html') format('eot'),  url('fonts/FontLight.otf') format('opentype'),  url('fonts/FontLight.woff') format('woff'),  url('fonts/FontLight.ttf') format('truetype'),  url('fonts/FontLight.svg#FontLight') format('svg');
+@font-face {
+font-family: 'FontLight';
+src: url('/index.html') format('eot'),  url('fonts/FontLight.otf') format('opentype'),  url('fonts/FontLight.woff') format('woff'),  url('fonts/FontLight.ttf') format('truetype'),  url('fonts/FontLight.svg#FontLight') format('svg');
 }
- @font-face {
- font-family: 'FontMedium';
- src: url('http://www.hyte.net/index.html') format('eot'),  url('fonts/FontMedium.otf') format('opentype'),  url('http://www.hyte.net/index.html') format('woff'),  url('fonts/FontMedium.ttf') format('truetype'),  url('fonts/FontMedium.svg#FontMedium') format('svg');
+@font-face {
+font-family: 'FontMedium';
+src: url('/index.html') format('eot'),  url('fonts/FontMedium.otf') format('opentype'),  url('index.html') format('woff'),  url('fonts/FontMedium.ttf') format('truetype'),  url('fonts/FontMedium.svg#FontMedium') format('svg');
 }
 
 .merchandise a {padding-left:30px !important}
@@ -61,14 +65,14 @@ display: inline;
   -moz-transition:color .35s ease-out, background 0.35s ease-in;
   -webkit-transition:color .35s ease-out, background 0.35s ease-in;
   /* ...and now override with proper CSS property */
-  transition:color .35s ease-out, background 0.35s ease-in; 
+  transition:color .35s ease-out, background 0.35s ease-in;
 }
 .get-tickets:hover {
   background: #fff;
 color:#000 !important;
 }
 
- 
+
 
 #simple-menu { background:transparent; position:fixed; width:100%; height:100%; top:100px; bottom:100px;}
 
@@ -195,7 +199,7 @@ textarea {
 	display:block;
 }
 #toprow ul li.top-logo {text-align: center !important}
-#toprow ul.contact-imprint {text-align:left; padding:0px; margin:0px 0px 0px 10px;} 
+#toprow ul.contact-imprint {text-align:left; padding:0px; margin:0px 0px 0px 10px;}
 #toprow ul.contact-imprint li{width: auto !important; }
 #toprow ul.contact-imprint li a {margin-left:10px}
 .contact-imprint a { display:block !important; text-align:left !important}
@@ -325,7 +329,7 @@ html, body {
 	left:0;
 }
 .the_box >.viewport.loading {
-	background: url("logo-animated.gif") center center no-repeat;
+  	background: url("logo-animated.gif") center center no-repeat;
 }
 .the_box >.viewport, .the_box >.viewport a {
 	font-size:11px;
@@ -339,9 +343,9 @@ html, body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin: 0 auto;
-	width:478px;
-	height: 430px;
-	background-image: url("../images/hyte-ibiza-tickets.jpg");
+	width:250px;
+	height: 370px;
+	background-image: url("https://augmentaudio.github.io/matar/images/eos.svg");
 	display:inline-block;
 }
 .the_box >.viewport img, .the_box >.viewport iframe, .the_box >.viewport .iframe_cover {
@@ -469,7 +473,7 @@ html, body {
 /* Style adjustments for viewports that meet the condition */
 }
  @media print,  (-o-min-device-pixel-ratio: 5/4),  (-webkit-min-device-pixel-ratio: 1.25),  (min-resolution: 120dpi) {
-	 
+
 /* Style adjustments for high resolution devices */
 }
 
@@ -551,29 +555,29 @@ img.ri:empty
 }
 
 @media screen and (orientation: portrait) {
-	
-	
-	
-	
+
+
+
+
   img.ri {
       max-width: 50%;
   }
 }
 
 @media screen and (orientation: landscape) {
-	
 
-	
-	
-	
-	
+
+
+
+
+
   img.ri {
       max-height: 50%;
   }
 }
 
 @media screen and (min-width: 601px) {
-	
+
 .pocp_button_left { display:none
 }
 
@@ -587,15 +591,15 @@ img.ri:empty
 
   #menu, #toprow {
     visibility: hidden;
-   
+
     display: none;
   }
-  
+
   .logo {width:310px; height:279px;}
 }
 
 #pocp1 {z-index:9999}
-ul.navi-panel, ul.navi-panel  li {list-style: none outside none; }
+ul.pocp_scrollbars, ul.navi-panel  li {list-style: none outside none; }
 .navi-panel li {line-height:30px; margin-bottom:30px;}
 .navi-panel li a {font-size:20px; font-family:FontMedium;}
 .navi-panel li .small {font-size: 14px; line-height:14px; display:block; margin-top:-5px; }
