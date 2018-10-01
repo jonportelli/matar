@@ -345,7 +345,7 @@ html, body {
 	margin: 0 auto;
 	width:250px;
 	height: 370px;
-	background-image: url("https://augmentaudio.github.io/matar/images/eos.svg");
+	background-image: url("https://augmentaudio.github.io/matar/images/eos.png");
 	display:inline-block;
 }
 .the_box >.viewport img, .the_box >.viewport iframe, .the_box >.viewport .iframe_cover {
@@ -595,7 +595,7 @@ img.ri:empty
     display: none;
   }
 
-  .logo {width:310px; height:279px;}
+  .logo {width:120px; height:180px;}
 }
 
 #pocp1 {z-index:9999}
