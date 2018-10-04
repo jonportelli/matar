@@ -1,0 +1,584 @@
+<!doctype html>
+<html lang="en-US"><head>
+<link rel="icon" href="../images/favicon.ico" type="image/x-icon">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta charset="utf-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+<meta name="description" content="HYTE is a global event series that hosts international DJ headliners, upcoming talent and various music labels and brands." />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Pragma" content="no-cache">
+<meta property="og:image" content="https://www.hyte.net/event/images/sharehyte.png" />
+<meta property="og:title" content="HYTE PARK NYC" />
+<meta property="og:description" content="HYTE is a global event series that hosts international DJ headliners, upcoming talent and various music labels and brands." />
+<meta property="og:url" content="https://www.hyte.net/event/hyte-park/index.html"/>
+<title>HYTE PARK</title>
+<!--[if IE]><![endif]-->
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel='stylesheet' id='prettyloader_dynamic-css'  href='../plugins/prettyloader/css/dynamic.css' type='text/css' media='all' />
+<link rel='stylesheet' id='style-name-css'  href='../css/style-40607.css' type='text/css' media='all' />
+<link rel='stylesheet' id='mobile.nav.frontend.css-css'  href='../plugins/SD-mobile-nav/css/mobile.nav.frontend-40607.css' type='text/css' media='all' />
+<script type='text/javascript' src='../js/jquery/jquery.js?ver=1.11.0'></script>
+<script type='text/javascript' src='../js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='../plugins/prettyloader/js/modernizr.custom.js'></script>
+<script type='text/javascript' src='../plugins/prettyloader/js/classie.js'></script>
+<script type='text/javascript' src='../plugins/prettyloader/js/prettyloader.min.js'></script>
+<script type='text/javascript' src='../plugins/SD-mobile-nav/js/jquery.sidr-ck.js?ver=3.9.1'></script>
+<script type="text/javascript" src="../js/lightbox/jquery.lightbox.min.js"></script>
+
+<!-- Videoplayer -->
+
+<!-- Main Javascript -->
+
+<!-- Perfect Scrollbar -->
+
+<link rel="stylesheet" type="text/css" href="../js/lightbox/themes/evolution-dark/jquery.lightbox.css" />
+<link rel="stylesheet" type="text/css" href="../css/justifiedGallery.css" />
+<style id="sdrn_css" type="text/css" >
+/* apply appearance settings */
+			#sdrn_bar {
+	background: #252525;
+}
+#sdrn_bar .menu_title, #sdrn_bar .sdrn_icon_menu {
+	color: #eeeeee;
+}
+#sdrn_bar .sdrn_ic span {
+	background: #eeeeee;
+}
+#sdrn_menu {
+	background: #252525!important;
+}
+#sdrn_menu.sdrn_levels ul li {
+	border-bottom:1px solid #131212;
+	border-top:1px solid #474747;
+}
+#sdrn_menu ul li a {
+	color: #eeeeee;
+}
+#sdrn_menu ul li a:hover {
+	color: #ffffff;
+}
+#sdrn_menu.sdrn_levels a.sdrn_parent_item {
+	border-left:1px solid #474747;
+}
+#sdrn_menu .sdrn_icon_par {
+	color: #eeeeee;
+}
+#sdrn_menu .sdrn_icon_par:hover {
+	color: #ffffff;
+}
+#sdrn_menu.sdrn_levels ul li ul {
+	border-top:1px solid #131212;
+}
+#sdrn_s {
+	color: #eeeeee;
+	border:1px solid #696969;
+	background: #565656
+}
+#sdrn_searchsubmit {
+	color: #eeeeee;
+}
+#sdrn_menu .sdrn_searchsubmit_ic:before {
+	color: #eeeeee;
+}
+#sdrn_menu.left {
+ width:%;
+ left: -%;
+	right: auto;
+}
+#sdrn_menu.right {
+ width:%;
+ right: -%;
+	left: auto;
+}
+			
+			
+			
+										/* show the bar and hide othere navigation elements */
+				@media only screen and (max-width: 991px) {
+ html {
+padding-top: 42px!important;
+}
+#sdrn_bar {
+display: block!important;
+} {
+display:none!important;
+}
+}
+				/* hide the bar & the menu */
+				@media only screen and (min-width: 992px) {
+}
+</style>
+<style type="text/css" id="responsive-backgrounds-css">
+@media all {
+.page-id-719 {
+	background-color: #000000;
+	background-image: url('../images/park.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	background-origin: padding-box;
+	background-clip: border-box;
+}
+}
+#mc_embed_signup {
+	width:120px;
+	bottom:30px;
+	margin-left:10px;
+	margin-top:1px
+}
+.subscr-form input[type=email], .subscr-form input[type=text] {
+	display: block;
+	width: 65%;
+	margin-right:1%;
+	float: left;
+	font-size: 12px;
+	font-weight: 400;
+	color: #fff;
+	background: none repeat scroll 0% 0% transparent;
+	border-bottom: 1px solid #ffffff;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+	border-top: 1px solid transparent;
+	line-height: 1;
+	outline: 0px none;
+	margin-top: 0px;
+	height:15px;
+	line-height:15px;
+	padding:0px !important;
+}
+.subscr-form input[type=submit] {
+	float: left;
+	font-size: 12px;
+	font-weight: 400;
+	color: #fff;
+	background: none repeat scroll 0% 0% transparent;
+	border: none;
+	outline: 0px none;
+	margin-top: 0px;
+	display: block;
+	height:18px;
+	line-height:15px;
+}
+input[type="submit"] {
+	padding:0px !important
+}
+.subscr-form input[type=submit]:hover {
+	background: transparent;
+}
+.subscr-form input[type=email]:-moz-input-placeholder, .subscr-form input[type=text]:-moz-input-placeholder {
+ color: #fff;
+}
+.subscr-form input[type=email]::-moz-input-placeholder, .subscr-form input[type=text]::-moz-input-placeholder {
+ color: #fff;
+}
+.subscr-form input[type=email]:-ms-input-placeholder, .subscr-form input[type=text]:-ms-input-placeholder {
+ color: #fff;
+}
+.subscr-form input[type=email]::-webkit-input-placeholder, .subscr-form input[type=text]::-webkit-input-placeholder {
+ color: #fff;
+}
+.placeholder {
+	color: #fff;
+}
+input.error {
+	border-color: #000 !important;
+}
+input.error ~ #mc-embedded-subscribe {
+ background-color: red !important;
+}
+label.error {
+	display: none !important;
+}
+</style>
+
+</head>
+
+<body class="page page-id-719 page-template page-template-template-newyork-php responsive-background sdrn_jquery sdrn_left">
+<div id='prettyloader-container' class='open'>
+  <div id='prettyloader-spinner' class='prettyloader-spinner-small prettyloader-spinner-css prettyloader-spinner-purecss-6'></div>
+</div>
+<script type='text/javascript'>
+				var siteState = document.readyState;
+
+				if (siteState == 'loading') {
+
+					// Initialise PrettyLoader
+					prettyLoader.initEffect(200);
+
+					jQuery(window).load(function() {
+						
+					});
+				}
+			</script>
+<header class="header-wrap">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 rel">
+        <nav class="menuwrap" role="main">
+          <div class="menu-primary-menu-container">
+            <ul id="menu-primary-menu" class="sf-menu-primary">
+                  <li class="text-left menu-item"><a href="../hyte-amsterdam/index.html">HYTE<br/>
+                <span class="event-stadt">ADE</span></a></li>
+              <li class="text-right menu-item"><a href="../hyte-barcelona/index.html">HYTE<br/>
+                <span class="event-stadt">BARCELONA</span></a></li>
+              <li class="text-right menu-item"><a href="../hyte-berlin/index.html">HYTE<br/>
+                <span class="event-stadt">BERLIN</span></a></li>
+                         <li class="text-center menu-item"><a href="../hyte-croatia/index.html">HYTE<br/>
+                <span class="event-stadt">CROATIA</span></a></li>
+                         <li class="text-center menu-item"><a href="../hyte-ibiza/index.html">HYTE<br/>
+                <span class="event-stadt">IBIZA</span></a></li>
+              <li class="text-left menu-item"><a href="../hyte-newyork/index.html">HYTE<br/>
+                <span class="event-stadt">NEW YORK</span></a></li>
+             <li class="text-center menu-item"><a href="../hyte-italy/index.html">HYTE<br/>
+                <span class="event-stadt">ITALY</span></a></li>
+       
+            </ul>
+          </div>
+        </nav>
+        <!--end navbar primary--> 
+      </div>
+    </div>
+    <!--end row--> 
+  </div>
+  <!--end container--> 
+</header>
+<!-- end of menu and logo section -->
+<div class="block">
+  <div class="centered">
+    <div class="entire-site-wrap">
+      <div class="site-margin">
+        <div class="site-wrap-shadow">
+          <section class="section-wrap">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <article class="singlepost colored">
+                    <div class="singlwrap">
+                      <div class="row">
+                        <div class="col-md-4"> <a class="lightbox" href="../images/12.07.2014_hyte_park_new_york_line_up_810-NEW.jpg" title="HYTE PARK" ><img width="810" height="1144" src="../images/12.07.2014_hyte_park_new_york_line_up_810-NEW.jpg" class="attachment-slider-full wp-post-image" alt="12.07.2014_hyte_park_new_york_line_up_A1_500x700_810_new+.indd" /></a> </div>
+                        <div class="col-md-8">
+                          <h3 class="hyte_headline_1"> JULY 12TH + JULY 13TH 2014</h3>
+                          <h3 class="hyte_headline_2">HYTE PARK NEW YORK CITY,  GOVENORS ISLAND</h3>
+                          <div class="clear"></div>
+                          
+                          <!-- tabs -->
+                          <div class="sky-tabs sky-tabs-pos-top-left sky-tabs-anim-slide-down">
+                            <input type="radio" name="sky-tabs" checked id="sky-tab1" class="sky-tab-content-1">
+                            <label for="sky-tab1"><span><span><i class="fa fa-bolt"></i>LINE UP</span></span></label>
+                            <input type="radio" name="sky-tabs" id="sky-tab2" class="sky-tab-content-2">
+                            <label for="sky-tab2"><span><span><i class="fa fa-play-circle-o"></i>VIDEOS</span></span></label>
+                            <input type="radio" name="sky-tabs" id="sky-tab3" class="sky-tab-content-3">
+                            <label for="sky-tab3"><span><span><i class="fa fa-map-marker"></i>LOCATION</span></span></label>
+                            <input type="radio" name="sky-tabs" id="sky-tab4" class="sky-tab-content-4">
+                            <label for="sky-tab4"><span><span><i class="fa fa-picture-o"></i>GALLERY</span></span></label>
+                            <input type="radio" name="sky-tabs" id="sky-tab5" class="sky-tab-content-5">
+                            <label for="sky-tab5"><span><span><i class="fa fa-info-circle"></i>MORE INFO</span></span></label>
+                            <ul>
+                              <li class="sky-tab-content-1">
+                                <div class="typography">
+                                  <div class="typography">
+                                    <div class="row">
+                                      <div class="col-md-6">
+                                        <h3 style="margin-bottom:10px">SATURDAY</h3>
+                                        <ul>
+                                          <li class="djhover" data-hipop="two-horizontal">
+                                            <div class="hoversocials"><span>LOCO DICE</span></div>
+                                            <a href="https://www.facebook.com/locodiceofc?fref=ts" class="socialpop" target="_blank">&nbsp;</a> <a href="https://soundcloud.com/locodiceofc" class="socialpop2" target="_blank">&nbsp;</a> </li>
+                                          <li class="djhover" data-hipop="two-horizontal">
+                                            <div class="hoversocials"><span><span style="text-transform:lowercase !important">t</span>INI</span></div>
+                                            <a href="https://www.facebook.com/tINI?fref=ts" class="socialpop" target="_blank">&nbsp;</a> <a href="https://soundcloud.com/tinicouldbeworse" class="socialpop2" target="_blank">&nbsp;</a> </li>
+                                          <li class="djhover" data-hipop="two-horizontal">
+                                            <div class="hoversocials"><span>PAUL RITCH</span></div>
+                                            <a href="https://www.facebook.com/paul.ritch" class="socialpop" target="_blank">&nbsp;</a> <a href="https://soundcloud.com/paulritch" class="socialpop2" target="_blank">&nbsp;</a> </li>
+                                          <li class="djhover" data-hipop="two-horizontal">
+                                            <div class="hoversocials"><span>RADIO SLAVE</span></div>
+                                            <a href="https://www.facebook.com/like.radio.slave?fref=ts" class="socialpop" target="_blank">&nbsp;</a> <a href="https://soundcloud.com/rekids/sets/" class="socialpop2" target="_blank">&nbsp;</a> </li>
+                                          <li class="djhover" data-hipop="two-horizontal">
+                                            <div class="hoversocials"><span>BILL PATRICK</span></div>
+                                            <a href="https://www.facebook.com/billpatrick.ny" class="socialpop" target="_blank">&nbsp;</a> <a href="https://soundcloud.com/billpatrick" class="socialpop2" target="_blank">&nbsp;</a> </li>
+                                          <li class="djhover" data-hipop="two-horizontal">
+                                            <div class="hoversocials"><span>MIND AGAINST</span></div>
+                                            <a href="https://www.facebook.com/mindagainst?fref=ts" class="socialpop" target="_blank">&nbsp;</a> <a href="https://soundcloud.com/mindagainst" class="socialpop2" target="_blank">&nbsp;</a> </li>
+                                          <li class="djhover" data-hipop="two-horizontal">
+                                            <div class="hoversocials"><span>TAIMUR & FAHAD</span></div>
+                                            <a href="https://www.facebook.com/Blkmarketmembership?fref=ts" class="socialpop" target="_blank">&nbsp;</a> </li>
+                                          <li class="djhover" data-hipop="two-horizontal">
+                                            <div class="hoversocials"><span>PAUL RAFFAELE</span></div>
+                                            <a href="https://www.facebook.com/mostexcellentunlimited" class="socialpop" target="_blank">&nbsp;</a> <a href="https://soundcloud.com/paulraffaele" class="socialpop2" target="_blank">&nbsp;</a> </li>
+                                        </ul>
+                                        <br/>
+                                      </div>
+                                      <div class="col-md-6">
+                                        <h3 style="margin-bottom:10px">SUNDAY</h3>
+                                        <ul>
+                                          <li class="djhover" data-hipop="two-horizontal">
+                                            <div class="hoversocials"><span>CHRIS LIEBING</span></div>
+                                            <a href="https://www.facebook.com/chrisliebingofficial?fref=ts" class="socialpop" target="_blank">&nbsp;</a> <a href="https://soundcloud.com/chris-liebing" class="socialpop2" target="_blank">&nbsp;</a> </li>
+                                          <li class="djhover" data-hipop="two-horizontal">
+                                            <div class="hoversocials"><span>NICOLE MOUDABER</span></div>
+                                            <a href="https://www.facebook.com/officialpage" class="socialpop" target="_blank">&nbsp;</a> <a href="https://soundcloud.com/nicolemoudaber" class="socialpop2" target="_blank">&nbsp;</a> </li>
+                                          <li class="djhover" data-hipop="two-horizontal">
+                                            <div class="hoversocials"><span>PAN-POT</span></div>
+                                            <a href="https://www.facebook.com/PanPotOfficial?fref=ts" class="socialpop" target="_blank">&nbsp;</a> <a href="https://soundcloud.com/pan-pot" class="socialpop2" target="_blank">&nbsp;</a> </li>
+                                          <li class="djhover" data-hipop="two-horizontal">
+                                            <div class="hoversocials"><span>HECTOR</span></div>
+                                            <a href="https://www.facebook.com/Hector.Official.Page?fref=ts" class="socialpop" target="_blank">&nbsp;</a> <a href="https://soundcloud.com/pan-pot" class="socialpop2" target="_blank">&nbsp;</a> </li>
+                                          <li class="djhover" data-hipop="two-horizontal">
+                                            <div class="hoversocials"><span>ROBERT DIETZ</span></div>
+                                            <a href="https://www.facebook.com/officialrobertdietz" class="socialpop" target="_blank">&nbsp;</a> <a href="https://soundcloud.com/robert-dietz" class="socialpop2" target="_blank">&nbsp;</a> </li>
+                                          <li class="djhover" data-hipop="two-horizontal">
+                                            <div class="hoversocials"><span>TOMMY FOUR SEVEN</span></div>
+                                            <a href="https://www.facebook.com/tommyfoursevenofficial" class="socialpop" target="_blank">&nbsp;</a> <a href="https://soundcloud.com/tommyfourseven" class="socialpop2" target="_blank">&nbsp;</a> </li>
+                                          <li class="djhover" data-hipop="two-horizontal">
+                                            <div class="hoversocials"><span>MONOLOC</span></div>
+                                            <a href="https://www.facebook.com/pages/Monoloc-Official/201082819932424" class="socialpop" target="_blank">&nbsp;</a> <a href="https://soundcloud.com/MONOLOC-SMALLROOM-MUSIC" class="socialpop2" target="_blank">&nbsp;</a> </li>
+                                          <li class="djhover" data-hipop="two-horizontal">
+                                            <div class="hoversocials"><span>SHAHAR</span></div>
+                                            <a href="https://www.facebook.com/ShaharOFC" class="socialpop" target="_blank">&nbsp;</a> <a href="https://soundcloud.com/shaharofc" class="socialpop2" target="_blank">&nbsp;</a> </li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="sky-tab-content-2">
+                                <div class="typography">
+                                  <div id="playlist"></div>
+                                  <p style="font-size:18px; margin-top:15px; margin-bottom:0px; letter-spacing: 2px">Follow us on <a href="https://www.facebook.com/HYTE?fref=ts" target="_blank">facebook</a>, <a href="https://twitter.com/HyteOfficial" target="_blank">twitter</a>, <a href="https://instagram.com/hyteofficial" target="_blank">instagram</a>, <a href="https://soundcloud.com/hyteofficial" target="_blank">soundcloud</a> & <a href="http://www.youtube.com/user/HYTEofficial" target="_blank">youtube</a>. Or stay up to date by subscribing to our <a href="http://hyte.us2.list-manage.com/subscribe/post?u=9f9a9132b004e0916def12e0c&amp;id=c3ef684f9a" target="_blank">newsletter</a>.</p>
+                                  <div> </div>
+                                </div>
+                              </li>
+                              <li class="sky-tab-content-3">
+                                <div class="typography">
+                                  <div style="padding-right:1%;">
+                                    <p>Getting to <a style="text-decoration: underline;" title="Governors Island" href="https://www.google.de/maps/place/Governors+Island/@40.6885845,-74.0193751,13z/data=!4m2!3m1!1s0x89c25a7ada7d834f:0x78c2917911c7f535" target="_blank">Governors Island</a>:</p>
+                                    <p>&nbsp;</p>
+                                    <p>It&acute;s just a quick, 5-minute boat ride away. The event will be accessible via New York Water Taxi. The Water Taxi&#8217;s will leave every hour from <a style="text-decoration: underline;" title="pier11" href="https://www.google.com/maps/place/Pier+11+/+Wall+St./@40.703611,-74.006631,16z/data=!4m2!3m1!1s0x89c25a15f858e3e1:0x4d67dbedb5d96a1f?hl=de-DE" target="_blank">Pier 11</a>, located at the corner of South Street &amp; Wall Street, approximately 4 blocks south of the South Street Seaport. Ferry to Governors Island runs all day, departing every 30 Minutes. Additional pickup locations may be added. There is no parking at the terminal itself, however there are ample lots in the area.</p>
+                                    <br/>
+                                    <p>Gates open at 4:00PM</p>
+                                    <p>&nbsp;</p>
+                                    <p class="map"><a style="text-decoration: underline;" href="http://www.nywatertaxi.com/piers/pier-11" target="_blank">NYC WATER TAXI (INFO + MAP)</a></p>
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="sky-tab-content-4">
+                                <div class="typography">
+                                  <div class="max-gallery-height">
+                                    <div id="margin1"><a href="eventimg/1.jpg" title="" class="lightbox" rel="group1"> <img src="eventimg/small/1.jpg" /> </a> <a href="eventimg/2.jpg" title="" class="lightbox" rel="group1"> <img src="eventimg/small/2.jpg" /> </a> <a href="eventimg/3.jpg" title="" class="lightbox" rel="group1"> <img src="eventimg/small/3.jpg" /> </a> <a href="eventimg/4.jpg" title="" class="lightbox" rel="group1"> <img src="eventimg/small/4.jpg" /> </a> <a href="eventimg/5.jpg" title="" class="lightbox" rel="group1"> <img src="eventimg/small/5.jpg" /> </a> <a href="eventimg/6.jpg" title="" class="lightbox" rel="group1"> <img src="eventimg/small/6.jpg" /> </a> <a href="eventimg/7.jpg" title="" class="lightbox" rel="group1"> <img src="eventimg/small/7.jpg" /> </a> <a href="eventimg/8.jpg" title="" class="lightbox" rel="group1"> <img src="eventimg/small/8.jpg" /> </a> <a href="eventimg/9.jpg" title="" class="lightbox" rel="group1"> <img src="eventimg/small/9.jpg" /> </a> <a href="eventimg/10.jpg" title="" class="lightbox" rel="group1"> <img src="eventimg/small/10.jpg" /> </a> <a href="eventimg/11.jpg" title="" class="lightbox" rel="group1"> <img src="eventimg/small/11.jpg" /> </a> <a href="eventimg/12.jpg" title="" class="lightbox" rel="group1"> <img src="eventimg/small/12.jpg" /> </a> <a href="eventimg/13.jpg" title="" class="lightbox" rel="group1"> <img src="eventimg/small/13.jpg" /> </a> <a href="eventimg/14.jpg" title="" class="lightbox" rel="group1"> <img src="eventimg/small/14.jpg" /> </a> <a href="eventimg/15.jpg" title="" class="lightbox" rel="group1"> <img src="eventimg/small/15.jpg" /> </a> <a href="eventimg/16.jpg" title="" class="lightbox" rel="group1"> <img src="eventimg/small/16.jpg" /> </a> <a href="eventimg/17.jpg" title="" class="lightbox" rel="group1"> <img src="eventimg/small/17.jpg" /> </a> <a href="eventimg/18.jpg" title="" class="lightbox" rel="group1"> <img src="eventimg/small/18.jpg" /> </a> <a href="eventimg/19.jpg" title="" class="lightbox" rel="group1"> <img src="eventimg/small/19.jpg" /> </a> <a href="eventimg/20.jpg" title="" class="lightbox" rel="group1"> <img src="eventimg/small/20.jpg" /> </a> <a href="eventimg/21.jpg" title="" class="lightbox" rel="group1"> <img src="eventimg/small/21.jpg" /> </a> <a href="eventimg/22.jpg" title="" class="lightbox" rel="group1"> <img src="eventimg/small/22.jpg" /> </a> <a href="eventimg/23.jpg" title="" class="lightbox" rel="group1"> <img src="eventimg/small/23.jpg" /> </a> <a href="eventimg/24.jpg" title="" class="lightbox" rel="group1"> <img src="eventimg/small/24.jpg" /> </a> <a href="eventimg/25.jpg" title="" class="lightbox" rel="group1"> <img src="eventimg/small/25.jpg" /> </a> <a href="eventimg/26.jpg" title="" class="lightbox" rel="group1"> <img src="eventimg/small/26.jpg" /> </a> <a href="eventimg/28.jpg" title="" class="lightbox" rel="group1"> <img src="eventimg/small/28.jpg" /> </a> <a href="eventimg/29.jpg" title="" class="lightbox" rel="group1"> <img src="eventimg/small/29.jpg" /> </a> <a href="eventimg/30.jpg" title="" class="lightbox" rel="group1"> <img src="eventimg/small/30.jpg" /> </a> </a> <a href="eventimg/31.jpg" title="" class="lightbox" rel="group1"> <img src="eventimg/small/31.jpg" /> </a> </a> <a href="eventimg/32.jpg" title="" class="lightbox" rel="group1"> <img src="eventimg/small/32.jpg" /> </a> </a> <a href="eventimg/33.jpg" title="" class="lightbox" rel="group1"> <img src="eventimg/small/33.jpg" /> </a> </div>
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="sky-tab-content-5">
+                                <div class="typography">
+                                  <div style="padding-right:1%;">
+                                    <p>HYTE Park is a annual boutique festival held on <a style="text-decoration: underline;" href="https://www.google.de/maps/place/Governors+Island/@40.6885845,-74.0193751,13z/data=!4m2!3m1!1s0x89c25a7ada7d834f:0x78c2917911c7f535" target="_blank">Governors Island</a> in NYC. For our second year, HYTE is doubling up, adding a second stage and a second day for attendees to experience some of the finest electronic artists ply their trade.</p>
+                                    <p>&nbsp;</p>
+                                    <p>Gates open at 4:00PM</p>
+                                  </div>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                          <!--/ tabs --> 
+                          
+                        </div>
+                      </div>
+                      <!--end 12 col --> 
+                    </div>
+                  </article>
+                </div>
+              </div>
+              <!--end row--> 
+            </div>
+            <!--end container--> 
+          </section>
+          
+          <!--colored section footer--> 
+          
+        </div>
+        <!--shadow--> 
+      </div>
+      <!--margin--> 
+    </div>
+    <!--end entiresite wrap--> 
+  </div>
+  <!--block--> 
+  
+</div>
+<!--centered-->
+
+<ul class="contact-imprint-footer">
+  <li><a href="../contact/index.html">CONTACT</a></li>
+  <li><a href="../imprint/index.html">IMPRINT</a></li>
+   <li class="merchandise"><a href="https://krasserstoff.com/hyte-discount/" target="_blank">MERCHANDISE</a></li>
+  <li><a href="../past_events/index.html">|&nbsp;EVENT ARCHIVE</a></li>
+</ul>
+<ul class="social-icons-footer">
+  <li><a class="facebook" href="https://www.facebook.com/HYTE?fref=ts" target="_blank"></a></li>
+  <li><a class="twitter" href="https://twitter.com/HyteOfficial" target="_blank"></a></li>
+  <li><a class="soundcloud" href="https://soundcloud.com/hyteofficial" target="_blank"></a></li>
+  <li><a class="instagram" href="http://instagram.com/hyteofficial#" target="_blank"></a></li>
+  <li><a class="youtube" href="http://www.youtube.com/user/HYTEofficial" target="_blank"></a></li>
+  <li><a href="../newsletter/index.html" target="_blank">Newsletter</a></li>
+</ul>
+
+<!--Plugin Disable Admin Bar and ToolBar 2013.0615.0936 Active - Tag 74be16979710d4c4e7c6647856088456--> 
+
+<!--Site Optimized to Speedup Control Panel Minimize Memory Consumption with Disabled ToolBar--> 
+
+<script type='text/javascript' src='../js/retina.js?ver=3.9.1'></script> 
+<script type='text/javascript' src='../js/post-like.js?ver=1.0'></script> 
+<script type='text/javascript' src='../js/jquery.easing-1.3.pack.js?ver=1.3'></script> 
+<script type='text/javascript' src='../js/jquery.zalki_hover_img-0.2.js?ver=1.0'></script> 
+<script type='text/javascript' src='../js/custom.js?ver=1.0'></script> 
+<script type='text/javascript' src='../js/bootstrap.min.js?ver=1.0'></script> 
+<script type='text/javascript' src='../plugins/SD-mobile-nav/js/jquery.transit.min.js?ver=3.9.1'></script> 
+<script type='text/javascript' src='../plugins/SD-mobile-nav/js/jquery.touchwipe.min.js?ver=3.9.1'></script> 
+<script type='text/javascript' src='../plugins/SD-mobile-nav/js/min/mobile.nav.frontend-ck.js?ver=3.9.1'></script> 
+<script type='text/javascript' src='../js/andscroll/jquery.mousewheel.js?ver=1.0'></script> 
+<script type='text/javascript' src='../js/andscroll/jquery.rollbar.min.js?ver=1.0'></script> 
+<script type='text/javascript' src='../js/andscroll/andscroll.js?ver=1.0'></script> 
+<script type='text/javascript' src='../js/justifiedgallery.js'></script> 
+<script>
+		jQuery(document).ready(function () {
+			
+			jQuery("#margin1").justifiedGallery({
+				margins: 3,
+				rowHeight : 100
+
+			});
+		
+		});
+	</script>
+<div id="sdrn_bar" class="sdrn_bar" data-from_width="991">
+  <div class="sdrn_ic"> <span class="sdrn_ic_1"></span> <span class="sdrn_ic_2"></span> <span class="sdrn_ic_3"></span> </div>
+  <!--<span class="sdrn_icon sdrn_icon_menu" data-icon="m"></span>--> 
+  <span class="menu_title"> </span> </div>
+<div id="sdrn_menu" class="sdrn_levels left sdrn_jquery " data-custom_icon="" data-custom_icon_open="" data-zooming="no" data-swipe_actions="yes" data-how_wide="" data-expand_sub_with_parent="no" >
+  <ul id="sdrn_menu_ul">
+      <li class="text-center menu-item"><a href="../hyte-amsterdam/index.html">HYTE<br/>
+      <span class="event-stadt">ADE</span></a></li>
+      <li class="text-right menu-item"><a href="../hyte-barcelona/index.html">HYTE<br/>
+      <span class="event-stadt">BARCELONA</span></a></li>
+    <li class="text-right menu-item"><a href="../hyte-berlin/index.html">HYTE <br/>
+      <span class="event-stadt">BERLIN</span></a></li>
+ 
+    <li class="text-center menu-item "><a href="../hyte-croatia/index.html">HYTE<br/>
+      <span class="event-stadt">CROATIA</span></a></li>
+    <li class="text-center menu-item "><a href="../hyte-ibiza/index.html">HYTE<br/>
+      <span class="event-stadt">IBIZA</span></a></li>
+    <li class="text-left menu-item"><a href="../hyte-newyork/index.html">
+      HYTE 
+      <span class="event-stadt">NEW YORK</span></a></li>
+   <li class="text-center menu-item "><a href="../hyte-italy/index.html">HYTE<br/>
+      <span class="event-stadt">ITALY</span></a></li>
+  </ul>
+</div>
+
+
+<!-- Cookiebar -->
+  <div class="fixedcookiebar fixed--bottomcookiebar cookie-disclaimer js-cookie-disclaimer">
+  <div class="disclaimermedia media--center">
+    <div class="media__object media__object--right">
+      <button class="button cookiebar">Schlie&szlig;en</button>
+    </div>
+    <div class="media__body">
+      <p>Auf dieser Website werden zur Verbesserung der Funktionalit&auml;t und des Leistungsverhaltens Cookies eingesetzt. Wenn Sie die Nutzung der Website fortsetzen, gilt dies als stillschweigende Einwilligung in die Verwendung von Cookies auf dieser Website. Weitere Informationen finden Sie in unserer <a href="https://www.hyte.net/event/privacy/index.html" target="_blank">Datenschutzerkl&auml;rung</a>.</p>
+    </div>
+  </div>
+</div>
+<script type='text/javascript' src='../js/cookiebar.js'></script>
+
+
+
+<script type="text/javascript">
+  jQuery(document).ready(function($){
+    $('.lightbox').lightbox();
+  });
+</script> 
+<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$("#playlist").youtube_video({
+				playlist: 'PLsqaSRzz1-QoHGIqOYMslv-O0IXe0BIMf',
+				channel: false,
+				user: false,
+				video: false,
+				max_results: 50,
+				pagination: true,
+				continous: true,
+				first_video: 0,
+				show_playlist: 'auto',
+				show_channel_in_playlist:true,
+				show_channel_in_title: true,
+				width: false,
+				show_annotations: false,
+				now_playing_text: 'Now Playing',
+				load_more_text: 'Load More',
+				autoplay: false,
+				force_hd: false,
+				hide_youtube_logo: false,
+				play_control: true,
+				time_indicator: 'full',
+				volume_control: true,
+				share_control: true,
+				fwd_bck_control: true,
+				youtube_link_control: true,
+				fullscreen_control: true,
+				playlist_toggle_control:true,
+				volume: false,
+				show_controls_on_load: true,
+				show_controls_on_pause: true,
+				show_controls_on_play: false,
+				player_vars: {},
+				colors: {},
+				 
+				on_load: function() {},
+				on_done_loading: function() {},
+				on_state_change: function() {},
+				on_seek: function() {},
+				on_volume: function() {},
+				on_time_update: function() {},	 
+			});
+		});
+
+	</script> 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-53222414-5', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '668553706598772');
+fbq('track', "PageView");</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=668553706598772&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MC8KW6K');</script>
+<!-- End Google Tag Manager -->
+</body>
+</html>
+<!-- Localized -->
+
+<!-- Localized -->
