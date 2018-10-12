@@ -310,7 +310,7 @@ html, body {
 	text-transform: uppercase;
 }
 #frontpage.the_box >.viewport.loading {
-	background: url("logo-animated.gif") center center no-repeat;
+	background: url("../../images/logo-animated.gif") center center no-repeat;
 }
 /*****************************************************************************************/
 /********************************** MEDIA GALLERY ****************************************/
@@ -329,7 +329,7 @@ html, body {
 	left:0;
 }
 .the_box >.viewport.loading {
-  	background: url("logo-animated.gif") center center no-repeat;
+  	background: url("../../images/logo-animated.gif") center center no-repeat;
 }
 .the_box >.viewport, .the_box >.viewport a {
 	font-size:11px;
@@ -345,7 +345,7 @@ html, body {
 	margin: 0 auto;
 	width:325px;
 	height: 475px;
-	background-image: url("https://augmentaudio.github.io/matar/images/eos.png");
+	background-image: url("../../images/eos.png");
 	display:inline-block;
 }
 .the_box >.viewport img, .the_box >.viewport iframe, .the_box >.viewport .iframe_cover {
