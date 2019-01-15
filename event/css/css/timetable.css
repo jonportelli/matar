@@ -12,7 +12,7 @@
 
 
 
-.hyte-timetable ul, .hyte-timetable li {
+.matar-timetable ul, .matar-timetable li {
 	margin:0;
 	padding:0;
 	list-style:none;
@@ -20,19 +20,19 @@
 	padding-left:3px; line-height:20px;
 	
 }
-.hyte-timetable ul {margin:20px 0px 0px;}
+.matar-timetable ul {margin:20px 0px 0px;}
 
 
 
-.hyte-timetable {
+.matar-timetable {
 	-webkit-animation:bugfix infinite 1s
 }
-.hyte-timetable * {
+.matar-timetable * {
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
 	box-sizing:border-box
 }
-.hyte-timetable {
+.matar-timetable {
 	margin:0px;
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
@@ -52,7 +52,7 @@ margin-top:10px;
 ul.day-wrap.aufvier .djhover{margin-bottom:0px !important}
 ul.day-wrap.aufvier .hoversocials {font-size:14px;}
 ul.day-wrap.aufvier .sky-tabs.typography {letter-spacing: 1px}
-ul.day-wrap.aufvier .hyte-timetable label {padding:0px 2px}
+ul.day-wrap.aufvier .matar-timetable label {padding:0px 2px}
 
 
 
@@ -75,15 +75,15 @@ transition:opacity .8s ease-in-out
 .item-details h3 {
 margin-bottom: 0px }
 
-.hyte-timetable input {
+.matar-timetable input {
 	position:absolute;
 	top:-9999px;
 	left:-9999px;
 	filter:alpha(opacity=0);
 	opacity:0
 }
-.hyte-timetable {text-align: left}
-.hyte-timetable label {
+.matar-timetable {text-align: left}
+.matar-timetable label {
 	margin-bottom:1px;
 	width:20%;
 	float:left;
@@ -103,22 +103,22 @@ padding:4px;
 	user-select:none
 }
 
-.hyte-timetable label.fuenftel {
+.matar-timetable label.fuenftel {
 	width:20%
 }
-.hyte-timetable label.siebtel {
+.matar-timetable label.siebtel {
 	width:13.3%
 }
-.hyte-timetable label.neuntel {
+.matar-timetable label.neuntel {
 	width:11.09%
 }
 .sky-tabs .typography.eventdates {padding:0px}
-.hyte-timetable label span  {display: block;padding:0px ;border:1px solid #fff;line-height:26px;height:24px;text-align:center; font-size:14px; color:#fff;}
+.matar-timetable label span  {display: block;padding:0px ;border:1px solid #fff;line-height:26px;height:24px;text-align:center; font-size:14px; color:#fff;}
 
-.hyte-timetable label span:hover {background:#222222}
+.matar-timetable label span:hover {background:#222222}
 label:hover {color: #000;}
 label:focus {color:white}
-.hyte-timetable input.filter-date-all:checked ~ label.filter-tab-all span, .hyte-timetable input.filter-date-1:checked ~ label.filter-tab-1 span, .hyte-timetable input.filter-date-2:checked ~ label.filter-tab-2 span, .hyte-timetable input.filter-date-3:checked ~ label.filter-tab-3 span, .hyte-timetable input.filter-date-4:checked ~ label.filter-tab-4 span, .hyte-timetable input.filter-date-5:checked ~ label.filter-tab-5 span, .hyte-timetable input.filter-date-6:checked ~ label.filter-tab-6 span, .hyte-timetable input.filter-date-7:checked ~ label.filter-tab-7 span, .hyte-timetable input.filter-date-8:checked ~ label.filter-tab-8 span, .hyte-timetable input.filter-date-9:checked ~ label.filter-tab-9 span, .hyte-timetable input.filter-date-10:checked ~ label.filter-tab-10 span {
+.matar-timetable input.filter-date-all:checked ~ label.filter-tab-all span, .matar-timetable input.filter-date-1:checked ~ label.filter-tab-1 span, .matar-timetable input.filter-date-2:checked ~ label.filter-tab-2 span, .matar-timetable input.filter-date-3:checked ~ label.filter-tab-3 span, .matar-timetable input.filter-date-4:checked ~ label.filter-tab-4 span, .matar-timetable input.filter-date-5:checked ~ label.filter-tab-5 span, .matar-timetable input.filter-date-6:checked ~ label.filter-tab-6 span, .matar-timetable input.filter-date-7:checked ~ label.filter-tab-7 span, .matar-timetable input.filter-date-8:checked ~ label.filter-tab-8 span, .matar-timetable input.filter-date-9:checked ~ label.filter-tab-9 span, .matar-timetable input.filter-date-10:checked ~ label.filter-tab-10 span {
 color:#fff;
 background-color:#be362d;
 background-image:-webkit-gradient(linear, left top, left bottom, color-stop(#be362d), color-stop(#D33D33));
@@ -133,7 +133,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#be362d', endCo
 }
 
 
-.hyte-timetable input.filter-date-all:checked ~ label.filter-tab-all.full-lineup span{
+.matar-timetable input.filter-date-all:checked ~ label.filter-tab-all.full-lineup span{
 color:#fff;
 background-color:#333333;
 background-image:-webkit-gradient(linear, left top, left bottom, color-stop(#000000), color-stop(#333333));
@@ -150,10 +150,10 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endCo
 }
 
 
-.hyte-timetable input.filter-date-all:checked ~ .day-wrap li, .hyte-timetable input.filter-date-1:checked ~ .day-wrap .day-1, .hyte-timetable input.filter-date-2:checked ~ .day-wrap .day-2, .hyte-timetable input.filter-date-3:checked ~ .day-wrap .day-3, .hyte-timetable input.filter-date-4:checked ~ .day-wrap .day-4, .hyte-timetable input.filter-date-5:checked ~ .day-wrap .day-5, .hyte-timetable input.filter-date-6:checked ~ .day-wrap .day-6. .hyte-timetable input.filter-date-7:checked ~ .day-wrap .day-7, .hyte-timetable input.filter-date-8:checked ~ .day-wrap .day-8, .hyte-timetable input.filter-date-9:checked ~ .day-wrap .day-9, .hyte-timetable input.filter-date-10:checked ~ .day-wrap .day-10 {
+.matar-timetable input.filter-date-all:checked ~ .day-wrap li, .matar-timetable input.filter-date-1:checked ~ .day-wrap .day-1, .matar-timetable input.filter-date-2:checked ~ .day-wrap .day-2, .matar-timetable input.filter-date-3:checked ~ .day-wrap .day-3, .matar-timetable input.filter-date-4:checked ~ .day-wrap .day-4, .matar-timetable input.filter-date-5:checked ~ .day-wrap .day-5, .matar-timetable input.filter-date-6:checked ~ .day-wrap .day-6. .matar-timetable input.filter-date-7:checked ~ .day-wrap .day-7, .matar-timetable input.filter-date-8:checked ~ .day-wrap .day-8, .matar-timetable input.filter-date-9:checked ~ .day-wrap .day-9, .matar-timetable input.filter-date-10:checked ~ .day-wrap .day-10 {
 opacity:1
 }
-.hyte-timetable input.filter-date-1:checked ~ .day-wrap li:not(.day-1), .hyte-timetable input.filter-date-2:checked ~ .day-wrap li:not(.day-2), .hyte-timetable input.filter-date-3:checked ~ .day-wrap li:not(.day-3), .hyte-timetable input.filter-date-4:checked ~ .day-wrap li:not(.day-4), .hyte-timetable input.filter-date-5:checked ~ .day-wrap li:not(.day-5), .hyte-timetable input.filter-date-6:checked ~ .day-wrap li:not(.day-6), .hyte-timetable input.filter-date-7:checked ~ .day-wrap li:not(.day-7), .hyte-timetable input.filter-date-8:checked ~ .day-wrap li:not(.day-8), .hyte-timetable input.filter-date-9:checked ~ .day-wrap li:not(.day-9), .hyte-timetable input.filter-date-10:checked ~ .day-wrap li:not(.day-10)       {
+.matar-timetable input.filter-date-1:checked ~ .day-wrap li:not(.day-1), .matar-timetable input.filter-date-2:checked ~ .day-wrap li:not(.day-2), .matar-timetable input.filter-date-3:checked ~ .day-wrap li:not(.day-3), .matar-timetable input.filter-date-4:checked ~ .day-wrap li:not(.day-4), .matar-timetable input.filter-date-5:checked ~ .day-wrap li:not(.day-5), .matar-timetable input.filter-date-6:checked ~ .day-wrap li:not(.day-6), .matar-timetable input.filter-date-7:checked ~ .day-wrap li:not(.day-7), .matar-timetable input.filter-date-8:checked ~ .day-wrap li:not(.day-8), .matar-timetable input.filter-date-9:checked ~ .day-wrap li:not(.day-9), .matar-timetable input.filter-date-10:checked ~ .day-wrap li:not(.day-10)       {
 opacity:.1
 }
 
@@ -164,7 +164,7 @@ opacity:.1
 -ms-transition:all .6s ease-in-out;
 transition:all .6s ease-in-out
 }
-.hyte-timetable input.filter-date-all:checked ~ .day-wrap.animation1 li, .hyte-timetable input.filter-date-1:checked ~ .day-wrap.animation1 .day-1, .hyte-timetable input.filter-date-2:checked ~ .day-wrap.animation1 .day-2, .hyte-timetable input.filter-date-3:checked ~ .day-wrap.animation1 .day-3, .hyte-timetable input.filter-date-4:checked ~ .day-wrap.animation1 .day-4 , .hyte-timetable input.filter-date-5:checked ~ .day-wrap.animation1 .day-5, .hyte-timetable input.filter-date-6:checked ~ .day-wrap.animation1 .day-6, .hyte-timetable input.filter-date-7:checked ~ .day-wrap.animation1 .day-7, .hyte-timetable input.filter-date-8:checked ~ .day-wrap.animation1 .day-8, .hyte-timetable input.filter-date-9:checked ~ .day-wrap.animation1 .day-9, .hyte-timetable input.filter-date-10:checked ~ .day-wrap.animation1 .day-10 {
+.matar-timetable input.filter-date-all:checked ~ .day-wrap.animation1 li, .matar-timetable input.filter-date-1:checked ~ .day-wrap.animation1 .day-1, .matar-timetable input.filter-date-2:checked ~ .day-wrap.animation1 .day-2, .matar-timetable input.filter-date-3:checked ~ .day-wrap.animation1 .day-3, .matar-timetable input.filter-date-4:checked ~ .day-wrap.animation1 .day-4 , .matar-timetable input.filter-date-5:checked ~ .day-wrap.animation1 .day-5, .matar-timetable input.filter-date-6:checked ~ .day-wrap.animation1 .day-6, .matar-timetable input.filter-date-7:checked ~ .day-wrap.animation1 .day-7, .matar-timetable input.filter-date-8:checked ~ .day-wrap.animation1 .day-8, .matar-timetable input.filter-date-9:checked ~ .day-wrap.animation1 .day-9, .matar-timetable input.filter-date-10:checked ~ .day-wrap.animation1 .day-10 {
 opacity:1;
 -webkit-transform:scale(1);
 -moz-transform:scale(1);
@@ -173,7 +173,7 @@ opacity:1;
 transform:scale(1);
 z-index:99
 }
-.hyte-timetable input.filter-date-1:checked ~ .day-wrap.animation1 li:not(.day-1), .hyte-timetable input.filter-date-2:checked ~ .day-wrap.animation1 li:not(.day-2), .hyte-timetable input.filter-date-3:checked ~ .day-wrap.animation1 li:not(.day-3), .hyte-timetable input.filter-date-4:checked ~ .day-wrap.animation1 li:not(.day-4), .hyte-timetable input.filter-date-5:checked ~ .day-wrap.animation1 li:not(.day-5), .hyte-timetable input.filter-date-6:checked ~ .day-wrap.animation1 li:not(.day-6), .hyte-timetable input.filter-date-7:checked ~ .day-wrap.animation1 li:not(.day-7), .hyte-timetable input.filter-date-8:checked ~ .day-wrap.animation1 li:not(.day-8), .hyte-timetable input.filter-date-9:checked ~ .day-wrap.animation1 li:not(.day-9), .hyte-timetable input.filter-date-10:checked ~ .day-wrap.animation1 li:not(.day-10) {
+.matar-timetable input.filter-date-1:checked ~ .day-wrap.animation1 li:not(.day-1), .matar-timetable input.filter-date-2:checked ~ .day-wrap.animation1 li:not(.day-2), .matar-timetable input.filter-date-3:checked ~ .day-wrap.animation1 li:not(.day-3), .matar-timetable input.filter-date-4:checked ~ .day-wrap.animation1 li:not(.day-4), .matar-timetable input.filter-date-5:checked ~ .day-wrap.animation1 li:not(.day-5), .matar-timetable input.filter-date-6:checked ~ .day-wrap.animation1 li:not(.day-6), .matar-timetable input.filter-date-7:checked ~ .day-wrap.animation1 li:not(.day-7), .matar-timetable input.filter-date-8:checked ~ .day-wrap.animation1 li:not(.day-8), .matar-timetable input.filter-date-9:checked ~ .day-wrap.animation1 li:not(.day-9), .matar-timetable input.filter-date-10:checked ~ .day-wrap.animation1 li:not(.day-10) {
 opacity:.1;
 -webkit-transform:scale(1.5);
 -moz-transform:scale(1.5);
@@ -193,17 +193,17 @@ z-index:10
 div#demo-nav {
 top:250px
 }
-.hyte-timetable {float:left; margin-bottom:30px; display:inline-block; width:100%}	
+.matar-timetable {float:left; margin-bottom:30px; display:inline-block; width:100%}	
 .artist-date {width:100%;}
 .day-wrap, .day-wrap.aufvier {width:100%;}
-.hyte-timetable label, .hyte-timetable label.fuenftel, .hyte-timetable label.siebtel, .hyte-timetable label.neuntel {
+.matar-timetable label, .matar-timetable label.fuenftel, .matar-timetable label.siebtel, .matar-timetable label.neuntel {
 display:inline-block; width:49.5%;
 margin-top:-1px;
 margin-left:0
 }
 .hideonsm {display:none !important}
 
-.hyte-timetable {float:left; margin-bottom:30px; display:inline-block; width: 100%}
+.matar-timetable {float:left; margin-bottom:30px; display:inline-block; width: 100%}
 
 ul.contact-imprint-footer li a{line-height:60px;}
 
@@ -318,8 +318,8 @@ color: white}
 
 .hoversocials {line-height:24px; font-size:20px; display:inline-block; white-space: nowrap; min-width:65px}
 
-.hyte-ticket-list {line-height:40px; margin-bottom:10px; font-size:14px; margin-bottom:10px !important}
-.hyte-ticket-list img {max-height:30px !important; width: auto !important; float:left; margin-right:10px; }
+.matar-ticket-list {line-height:40px; margin-bottom:10px; font-size:14px; margin-bottom:10px !important}
+.matar-ticket-list img {max-height:30px !important; width: auto !important; float:left; margin-right:10px; }
 
 .map:before {
   content: "\f041";

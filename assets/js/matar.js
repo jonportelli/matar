@@ -145,9 +145,9 @@ FrontImage.prototype = {
 };
 
 /**********************************************************************************
- ******************************* Hyte ****************************************
+ ******************************* Matar ****************************************
  **********************************************************************************/
-var Hyte = {
+var Matar = {
 
 	leave_url: undefined,
 
@@ -170,7 +170,7 @@ var Hyte = {
 			if (pointer === undefined) pointer = 0;
 			if (images.length > pointer) {
 				$('<img />').load(function() {
-					Hyte.tools.preloadImages(images, callback, pointer + 1);
+					Matar.tools.preloadImages(images, callback, pointer + 1);
 				}).attr('src', images[pointer]);
 			} else {
 				callback();
@@ -219,7 +219,7 @@ var Hyte = {
 
 
 
-Hyte.Frontpage = {
+Matar.Frontpage = {
 	container: undefined,
 	the_box: undefined,
 	leave_url: undefined,
@@ -335,5 +335,5 @@ Hyte.Frontpage = {
 
 
 $(function () {
-	Hyte.init();
+	Matar.init();
 });
