@@ -605,9 +605,9 @@ ul.pocp_scrollbars, ul.navi-panel  li {list-style: none outside none; }
 .navi-panel li .small {font-size: 14px; line-height:14px; display:block; margin-top:-5px; }
 
 
-ul.contact-imprint-panel li {display:inline-block;  font-size:14px; line-height:30px; margin-bottom:30px; float:left; margin-right:10px}
-ul.contact-imprint-panel li a {display: block; line-height:30px; font-size: 15px; margin:0px; padding:0px}
-ul.social-icons-panel {display: inline; float:left; width:100%; padding:0px; margin:0px;}
+ul.contact-imprint-panel li {display:inline-block;  font-size:14px; line-height:30px; float:left; margin-right:10px; clear:both;}
+ul.contact-imprint-panel li a {display: block; line-height:30px; font-size: 15px; margin:0px; padding:0px;}
+ul.social-icons-panel {display: inline; float:left; width:100%; }
 ul.social-icons-panel li {
     float: left;
     list-style-type: none;
